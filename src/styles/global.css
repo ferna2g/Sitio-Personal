@@ -1,5 +1,32 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
+
+body{
+  @apply bg-yellow-100;
+}
+
+.btn {
+    @apply bg-orange-400 text-white font-bold rounded border-gray-700 py-2 px-4 border-b-4;
+}
+
+.vertical-text{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  @apply bg-blue-200 text-purple-700 text-xs p-2 inline-block;
+}
+
+.media {
+  @apply bg-white flex justify-center;
+
+  svg {
+    width: 22px;
+    height: 22px;
+    fill: #fff !important;
+    margin: 0 30px;
+
+    &:hover {
+      opacity: 0.2;
+    }
+  }
+}
