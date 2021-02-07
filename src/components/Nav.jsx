@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-const navItems = {
+const navItems = [
   {
     caption: 'Inicio',
     href: '/'
@@ -22,7 +22,7 @@ const navItems = {
     caption: 'Skills',
     href: '/skills'
   }
-}
+]
 
 const Nav = (props) => {
 
