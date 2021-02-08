@@ -1,0 +1,19 @@
+{
+  "slug":"presencial",
+  "title": "Formación Académica",
+  "description": "Formación académica, grados de estudios e instituciones a las que asistí",
+  "items": [
+    {
+      "name": "Universidad Mariano Gálvez sede Chimaltenango",
+      "degree": "Pensum Cerrado Ingeniería en Sistemas de Información"
+    },
+    {
+      "name":"Instituo Evangelico America Latina",
+      "degree": "Bachiller en Ciencias y Letras por Madurez"
+    },
+    {
+      "name":"INTECAP",
+      "degree": "Técnico Electricista Industrial"
+    }
+  ]
+}

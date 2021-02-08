@@ -1,0 +1,27 @@
+{
+  "slug":"others",
+  "title": "Otros Logros Académicos",
+  "description": "Cursos de Inglés",
+  "items": [
+    {
+      "name": "Academia de Inglés SALEA",
+      "degree": "Nivel A",
+      "score": "88"
+    },
+    {
+      "name": "Academia de Inglés SALEA",
+      "degree": "Nivel B",
+      "score": "77"
+    },
+    {
+      "name": "Academia de Inglés SALEA",
+      "degree": "Nivel C",
+      "score": "88"
+    },
+    {
+      "name": "Academia de Inglés SALEA",
+      "degree": "Nivel D",
+      "score": "86"
+    }
+  ]
+}

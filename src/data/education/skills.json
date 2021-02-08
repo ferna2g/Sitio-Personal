@@ -1,0 +1,35 @@
+{
+  "slug":"skills",
+  "title": "Habilidades",
+  "description": "",
+  "items": [
+    {
+      "name": "Python",
+      "score":"50%"
+    },
+    {
+      "name":"Java",
+      "score": "40%"
+    },
+    {
+      "name":"SAP ABAP",
+      "score":"50%"
+    },
+    {
+      "name": "JavaScript",
+      "score":"50%"
+    },
+    {
+      "name":"React Js",
+      "score": "40%"
+    },
+    {
+      "name":"Gatsby Js",
+      "score":"50%"
+    },
+    {
+      "name":"HTML",
+      "score":"50%"
+    }
+  ]
+}

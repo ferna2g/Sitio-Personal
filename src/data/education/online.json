@@ -1,0 +1,23 @@
+{
+  "slug":"online",
+  "title": "Cursos en línea",
+  "description": "Cursos finalizados en plataformas de educación online",
+  "items": [
+    {
+      "name": "Curso SAP ABAP Iniciación a la programación",
+      "url": "https://logaligroup.com"
+    },
+    {
+      "name": "Curso SAP ABAP Diccionario de datos",
+      "url":"https://logaligroup.com"
+    },
+    {
+      "name": "Curso profesional de Base de datos ",
+      "url":"https://codigofacilito.com"
+    },
+    {
+      "name": "Curso de Python",
+      "url":"https://ed.team"
+    }
+  ]
+}
