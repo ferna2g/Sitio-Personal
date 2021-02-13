@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-  @apply bg-yellow-100;
+  @apply bg-gray-200;
 }
 
 .btn {
@@ -16,17 +16,18 @@ body{
   @apply bg-blue-200 text-purple-700 text-xs p-2 inline-block;
 }
 
-.media {
-  @apply bg-white flex justify-center;
+.fotos {
+  @apply bg-white h-32 w-32 items-stretch justify-center p-8;
+}
 
-  svg {
-    width: 22px;
-    height: 22px;
-    fill: #fff !important;
-    margin: 0 30px;
+.social {
+@apply bg-white flex items-center justify-center p-6
+}
 
-    &:hover {
-      opacity: 0.2;
-    }
-  }
+.social svg {
+  @apply w-5 h-5 m-8 fill-current
+}
+
+.social svg:hover {
+  @apply opacity-25
 }
