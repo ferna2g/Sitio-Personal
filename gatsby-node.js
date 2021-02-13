@@ -1,8 +1,8 @@
 const path = require('path');
 
-exports.createPages = async ({graphql,actions})=>{
+exports.createPages = async({ graphql, actions }) => {
 
-  const result = await graphql(`
+    const result = await graphql(`
       {
         allEducationJson {
           edges {
@@ -14,15 +14,15 @@ exports.createPages = async ({graphql,actions})=>{
       }
     `);
 
-    result.data.allEducationJson.edges.forEach(element=>{
-      const { node } = element;
-      actions.createPage({
-        path: node.slug,
-        component: path.resolve('./src/templates/education.jsx'),
-        context:{
-          slug: node.slug
-        }
-      });
+    result.data.allEducationJson.edges.forEach(element => {
+        const { node } = element;
+        actions.createPage({
+            path: node.slug,
+            component: path.resolve('./src/templates/education.jsx'),
+            context: {
+                slug: node.slug
+            }
+        });
     });
 
 }
