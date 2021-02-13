@@ -1,0 +1,42 @@
+export default [
+  {
+    title: "CMS Django",
+    description: "CMS realizado con Django",
+    autority: 'propio',
+    type: 'back',
+    url: "https://logaligroup.com",
+    image: '',
+  },
+  {
+    title: "Administrador de Proyectos",
+    description:"Proyecto para administrar proyectos, realizado con MongoDB, Express, React y Node",
+    autority: 'curso',
+    type:'front',
+    url: "",
+    image: '',
+  },
+  {
+    title: "Tienda Online con Django",
+    description:"Tienda en linea realizada con Django.",
+    autority: 'curso',
+    type:'back',
+    url: "",
+    image: '',
+  },
+  {
+    title: "Clon de Udemy",
+    description:"Clon de Udemy, realizado con JavaScript",
+    autority: 'curso',
+    type: 'front',
+    url: "",
+    image: '',
+  },
+  {
+    title: "Bebidas",
+    description:"Consumo de api de recetas de bebidas, realizado con React js",
+    autority: 'curso',
+    type: 'front',
+    url: "",
+    image: '',
+  },
+]
