@@ -23,8 +23,7 @@ const mediaSocials = [
 const Socials = (props) => {
 
   return (
-    <div className="fotos mt-10">
-      <svg className="fill-current">
+    <div className="social">
       {mediaSocials.map((media, index) => (
         <a
           key={index}
@@ -35,7 +34,6 @@ const Socials = (props) => {
           {media.icon}
         </a>
       ))}
-      </svg>
     </div>
   )
 }
