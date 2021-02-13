@@ -4,32 +4,25 @@
   "description": "",
   "items": [
     {
-      "name": "Python",
-      "score":"50%"
+      "name": "Python"
     },
     {
-      "name":"Java",
-      "score": "40%"
+      "name":"Java"
     },
     {
-      "name":"SAP ABAP",
-      "score":"50%"
+      "name":"SAP ABAP"
     },
     {
-      "name": "JavaScript",
-      "score":"50%"
+      "name": "JavaScript"
     },
     {
-      "name":"React Js",
-      "score": "40%"
+      "name":"React Js"
     },
     {
-      "name":"Gatsby Js",
-      "score":"50%"
+      "name":"Gatsby Js"
     },
     {
-      "name":"HTML",
-      "score":"50%"
+      "name":"HTML"
     }
   ]
 }

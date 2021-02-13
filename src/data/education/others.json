@@ -5,23 +5,19 @@
   "items": [
     {
       "name": "Academia de Inglés SALEA",
-      "degree": "Nivel A",
-      "score": "88"
+      "degree": "Nivel A"
     },
     {
       "name": "Academia de Inglés SALEA",
-      "degree": "Nivel B",
-      "score": "77"
+      "degree": "Nivel B"
     },
     {
       "name": "Academia de Inglés SALEA",
-      "degree": "Nivel C",
-      "score": "88"
+      "degree": "Nivel C"
     },
     {
       "name": "Academia de Inglés SALEA",
-      "degree": "Nivel D",
-      "score": "86"
+      "degree": "Nivel D"
     }
   ]
 }
