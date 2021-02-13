@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import Socials from "./Socials";
 import ilustration from '../imgs/5f7a57894e7f1.jpg';
 
@@ -19,6 +20,7 @@ const Information = () => {
               <svg className="animate-bounce w-6 h-6 ...">
 
               </svg>
+              <Link className="btn mx-10" to="/proyectos">Proyectos</Link>
             </div>
         </div>
       </div>
