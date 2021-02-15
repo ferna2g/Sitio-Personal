@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql} from "gatsby";
 import Nav from "../components/Nav";
+import { Helmet } from "react-helmet";
 
 
 const Education = (props) => {
@@ -9,6 +10,7 @@ const Education = (props) => {
     return (
       <div className="bg-gray-300">
       <Nav />
+      <Helmet title={pageData.slug}></Helmet>
         <header className="py-12">
           <div className="max-w-4xl mx-auto">
             <h2 className="capitalize text-4xl text-center font-bold">{pageData.title}</h2>
