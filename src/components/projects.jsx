@@ -15,10 +15,10 @@ const Projects = () => {
       <div className="mx-4 mt-4 text-2xl font-semibold">
         <h3>Proyectos Backend</h3>
       </div>
-      <div className="p-10 grid grid-cols-1 md:grid-cols-3 gap-5">
+      <ul className="p-10 grid grid-cols-1 md:grid-cols-3 gap-5">
         {
           proBack.map((project, index) => (
-                <div className="rounded overflow-hidden shadow-lg" key={index}>
+                <li className="rounded overflow-hidden shadow-lg" key={index}>
                     <img className="w-full" src={project.image} alt=""/>
                     <div className="px-6 py-4">
                       <div className="font-bold text-xl text-center mb-2">{project.title}</div>
@@ -29,19 +29,19 @@ const Projects = () => {
                     <div className="px-6 py-4 text-center">
                       <a href={project.url} target="_blank" rel="noopener noreferrer" className="bg-gray-200 rounded px-3 py-1 text-sm text-center font-semibold text-gray-70 mx-auto">Ver Proyecto</a>
                     </div>
-                </div>
+                </li>
           ))
         }
-      </div>
+      </ul>
 
       <div className="mx-4 mt-4 text-2xl font-semibold">
         <h3>Proyectos Frontend</h3>
       </div>
 
-      <div className="p-10 grid grid-cols-1 md:grid-cols-3 gap-5">
+      <ul className="p-10 grid grid-cols-1 md:grid-cols-3 gap-5">
         {
           proFront.map((project, index) => (
-                <div className="rounded overflow-hidden shadow-lg" key={index}>
+                <li className="rounded overflow-hidden shadow-lg" key={index}>
                     <img className="w-full" src={project.image} alt=""/>
                     <div className="px-6 py-4">
                       <div className="font-bold text-xl text-center mb-2">{project.title}</div>
@@ -52,10 +52,10 @@ const Projects = () => {
                     <div className="px-6 py-4 text-center">
                       <a href={project.url} target="_blank" rel="noopener noreferrer" className="bg-gray-200 rounded px-3 py-1 text-sm text-center font-semibold text-gray-70 mx-auto">Ver Proyecto</a>
                     </div>
-                </div>
+                </li>
           ))
         }
-      </div>
+      </ul>
     </div>
   )
 }
