@@ -21,7 +21,7 @@ const navItems = [
   {
     caption: 'Otros Logros Académicos',
     href: '/others'
-  }  
+  }
 ]
 
 const Nav = (props) => {
