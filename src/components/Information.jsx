@@ -16,11 +16,11 @@ const Information = () => {
             <div className="text-center md:text-left">
               <h2 className="text-lg text-2xl mt-4">Programador Junior</h2>
               <h2 className="text-lg mt-4">Autodidacta, entusiasta</h2>
-              <h2 className="font-bold text-lg mt-4 md:ml-10">Conoce mas</h2>
+              <h2 className="font-bold text-lg mt-4 visible md:invisible md:ml-10">Conoce mas</h2>
               <svg className="animate-bounce w-6 h-6 ...">
 
               </svg>
-              <Link className="btn mx-10" to="/proyectos">Proyectos</Link>
+              <Link className="btn mx-10 visible md:invisible" to="/proyectos">Proyectos</Link>
             </div>
         </div>
       </div>
